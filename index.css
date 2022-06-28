@@ -1,0 +1,72 @@
+body{
+    margin: 10px 0;
+    padding: 0;
+}
+body a{
+    text-decoration: none;
+    color: rgb(236, 26, 26);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    font-size: bold;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(236, 25, 25);
+    text-shadow: 1px 1px 1px red;
+}
+.right a{
+    text-decoration: none;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+.right{
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.description{
+    width: 50vw;
+    height: 90vh;
+    margin: 1px;
+}
+.image{
+    width: 40vw;
+    height: 90vh;
+    margin: 1px;
+    border-radius: 100px;
+    background-image: url('/images/large.jpg');
+    background-size:cover;
+    background-position:initial;
+    background-repeat: no-repeat;
+}
+.info{
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding:10px 30px;
+    text-align: justify;
+    color: rgb(21, 88, 231);
+}
+.footer{
+    height: 30vh;
+    background-color: rgb(94, 195, 223);
+    border-radius: 50px;
+}
+.contact{
+    color: rgb(236, 26, 26);
+    padding: 5px 15px;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
