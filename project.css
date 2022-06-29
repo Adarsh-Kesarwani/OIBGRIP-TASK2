@@ -1,0 +1,46 @@
+body{
+    margin: 10px ;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button{
+    text-align: center;
+    justify-content: center;
+}
+.button button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: bold;
+}
+.projectName h1{
+    color: rgb(239, 76, 76);
+}
+.projectContainer{
+    background-color:whitesmoke;
+    padding:10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px linen;
+    color: rgb(77, 146, 224);
+}
+.des{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.snippet{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.snippet img{
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+    border-radius: 20px;
+}
